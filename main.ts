@@ -188,6 +188,11 @@ function NeoPixel () {
     }
     strip.showColor(neopixel.rgb(0, 0, 0))
 }
+// El master siempre es 1
+// El resto es superior a 1
+// Mensajes:
+// 21,22,23, etc -> mensajes 1,2,3 al dispositivo 2
+// 31,32,33, etc -> mensajes 1,2,3 al dispositivo 3
 let BLUE = 0
 let GREEN = 0
 let RED = 0
